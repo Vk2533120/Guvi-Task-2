@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
+    
     .home-gradient {
-      background: linear-gradient(135deg, #4f46e5, #9333ea);
+      background: linear-gradient(135deg, #080466, #780ddb); 
       position: relative;
       min-height: 100vh;
       overflow: hidden;
-    }
+    }       
     .person-image {
       position: absolute;
       right: 5%;
@@ -54,30 +55,65 @@
     </div>
   </nav>
 
-  <section class="home-gradient flex flex-col justify-center items-start p-48 md:px-20 lg:px-32 text-white relative">
 
+  
+  <section class="home-gradient flex flex-col justify-center items-start p-[5%] md:px-[10%] lg:px-[15%] text-white relative">
+    <div class="py-8">
 
-    <h1 class="text-sm md:text-lg font-light mb-2 p-2">SUCCESSFUL COACHES ARE VISIONARIES</h1>
-    <h2 class="text-xl md:text-5xl font-bold mb-4 leading-tight py-12">Good coaching is <br> good teaching & <br> nothing else.</h2>
+   
+    <h1 class="text-sm md:text-lg font-light mb-2">SUCCESSFUL COACHES ARE VISIONARIES</h1>
 
-    <div class="flex space-x-4 mb-8">
-      <button class="px-6 py-2 border border-white rounded hover:bg-white hover:text-blue-500">View Courses</button>
-      <button class="px-6 py-2 border border-white rounded hover:bg-white hover:text-blue-500">Get Free Consultation</button>
+    <h2 class="text-xl md:text-[3rem] font-bold mb-4 leading-tight py-[1rem] tracking-tight">
+      Good coaching is<br> good teaching &<br> nothing else.
+    </h2>
+
+    <!-- Call-to-action Buttons -->
+    <div class="flex space-x-4 mb-[2rem]">
+      <button class="px-[1.5rem] py-[0.75rem] border border-white rounded hover:bg-white hover:text-blue-500">View Courses</button>
+      <button class="px-[1.5rem] py-[0.75rem] border border-white rounded hover:bg-white hover:text-blue-500">Get Free Consultation</button>
     </div>
 
+    <!-- Search Bar -->
     <div class="flex items-center bg-white p-[2px] rounded-lg overflow-hidden shadow-md w-full max-w-md">
       <input type="text" placeholder="What do you want to learn today?" 
              class="flex-grow p-[10px] text-gray-800 focus:outline-none rounded-l-lg text-sm">
       <button class="bg-blue-500 px-[20px] py-[10px] text-white rounded-r-lg hover:bg-blue-600">Search</button>
     </div>
 
-    <div class="relative flex items-center justify-end w-full h-full z-[1]">
+</div>
+    
+<div class="absolute top-[30%] right-[25%] transform -translate-y-[50%] text-white max-w-xs flex items-center space-x-4">
+    
+    <div class="flex flex-col items-center">
+      <div class="w-[2px] h-[40px] bg-blue-500"></div> 
+      <div class="bg-blue-500 rounded-full w-[30px] h-[30px] flex justify-center items-center">
+        <span class="text-white text-xl font-bold">“</span>
+      </div> 
+      <div class="w-[2px] h-[40px] bg-blue-500"></div> 
+    </div>
+  
+    <div>
+        <span class="block mt-2 text-sm font-semibold">Shyam</span>
+      <p class="text-sm leading-relaxed">
+        "In a coaching role, you ask the <br> questions and rely more on your <br> staff, who become the experts, to <br> provide the information."
+      </p>
       
-    <img src="girl.png" alt="" class="person-image z-[1] pt-64">
+    </div>
+  </div>
+  
+  <img src="Ellipse.png" alt="Ellipse" 
+  class="absolute top-[1%] right-[0%] max-w-[50%] h-auto z-[0] pointer-events-none">
+
+  
+    <img src="girl.png" alt="Girl" 
+  class="absolute bottom-0 right-[5%] max-w-[40%] h-auto z-[1]">
+
+  <img src="Group.svg" alt="Arch"
+     class="absolute bottom-0 right-[40%] max-w-[50%] h-auto z-[0] pointer-events-none opacity-50 w-48">
 
   </section>
-
-  <section class="bg-gradient-to-r from-purple-700 to-purple-900 py-8" style="background: linear-gradient(135deg, #5c1cf3, #800dec);">
+  
+  <section class="bg-gradient-to-r from-purple-700 to-purple-900 py-8" style="background: linear-gradient(135deg, #080466, #780ddb);">
     <div class="container mx-auto flex justify-evenly items-center space-x-6 flex-wrap">
       
       <img src="./spotify.png" alt="Spotify" class="h-[50px] object-contain">
@@ -340,13 +376,13 @@
         </div>
       </div>
 </div>
-<div class="bg-gradient-to-b from-purple-700 to-blue-700 mt-10">
+<div class="bg-gradient-to-b from-purple-700 to-blue-700 mt-10 w-full">
   <footer class="text-white py-12">
-    <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
+    <div class="w-full px-8 grid grid-cols-1 md:grid-cols-5 gap-8">
       
       <div>
         <h3 class="text-lg font-bold mb-4">Connect</h3>
-        <img src="logo.png" alt="Logo" class="mb-4 h-12 ml-12">
+        <img src="logo.png" alt="Logo" class="mb-4 h-12">
         <p class="text-sm leading-relaxed">
           Sri Jagannath Nivas, 8-1-164/345/A/1, Pragati Colony, Miallardevpally, Nawab Saheb Kunta, Hyd, 500005
         </p>
